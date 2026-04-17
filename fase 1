@@ -26,9 +26,9 @@ public class Hotel{
         System.out.println("      DAFTAR KAMAR      ");
         System.out.println("========================");
         for (int i = 0; i < daftarKamar.length; i++) {
-            System.out.println((i + 1) + "." +
-                daftarKamar[i].nomor + "-" +
-                daftarKamar[i].tipe + "-" +
+            System.out.println((i + 1) + " . " +
+                daftarKamar[i].nomor + " - " +
+                daftarKamar[i].tipe + " - Rp." +
                 daftarKamar[i].harga);
         }
 
