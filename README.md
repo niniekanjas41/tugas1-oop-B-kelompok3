@@ -27,3 +27,15 @@ Program ini menerapkan konsep dasar Object-Oriented Programming (OOP):
 - Method
 
 ---
+
+
+---
+
+## 📂 Struktur Folder
+📂 Struktur Folder
+- fase1 → kode awal
+- fase2 → kode hasil pengembangan
+- log-ai → dokumentasi diskusi AI
+- img → screenshot diskusi ai
+
+---
