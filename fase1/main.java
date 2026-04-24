@@ -35,11 +35,15 @@ public class Hotel {
 
         System.out.println("Berapa malam: ");
         int malam = input.nextInt();
-
-        int total = daftarKamar[pilih].harga * malam;
-
+        
+        // ===== OUTPUT =====
+        Reservasi r1 = new Reservasi(daftarKamar[pilih].harga, malam);
+        
         System.out.println("================================");
-        System.out.println("Total bayar: Rp." + total);
+        System.out.println("DATA PELANGGAN");
+        p1.tampilkanPelanggan();
+
+        r1.tampilkanTotal();
         System.out.println("================================");
     }
 }
