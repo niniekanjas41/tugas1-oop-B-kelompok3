@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class Hotel {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // ===== INPUT PELANGGAN =====
+        System.out.print("Masukkan nama: ");
+        String nama = input.nextLine();
 
-        Kamar k1 = new Kamar();
-        k1.nomor = 101;
-        k1.tipe = "Standard";
-        k1.harga = 200000;
+        System.out.print("Masukkan No HP: ");
+        String noHP = input.nextLine();
 
-        Kamar k2 = new Kamar();
-        k2.nomor = 102;
-        k2.tipe = "Deluxe";
-        k2.harga = 400000;
-
+        Pelanggan p1 = new Pelanggan(nama, noHP);
+        
+         // ===== DATA KAMAR =====
+        Kamar k1 = new Kamar(101, "Standard", 200000);
+        Kamar k2 = new Kamar(102, "Deluxe", 400000);
         Kamar[] daftarKamar = {k1, k2};
 
         System.out.println("================================");
